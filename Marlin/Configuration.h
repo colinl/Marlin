@@ -79,7 +79,7 @@
 // CDL
 //#define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE1 "bugfix-1.1.x CDL" // will be shown during bootup in line 1
-#define STRING_SPLASH_LINE2  "191226-17:00"         // will be shown during bootup in line 2
+#define STRING_SPLASH_LINE2  "191231-21:30"         // will be shown during bootup in line 2
 
 /**
  * *** VENDORS PLEASE READ ***
@@ -908,8 +908,7 @@
 #if ENABLED(MIN_SOFTWARE_ENDSTOPS)
   #define MIN_SOFTWARE_ENDSTOP_X
   #define MIN_SOFTWARE_ENDSTOP_Y
-  // CDL
-  //#define MIN_SOFTWARE_ENDSTOP_Z
+  #define MIN_SOFTWARE_ENDSTOP_Z
 #endif
 
 // Max software endstops constrain movement within maximum coordinate bounds
